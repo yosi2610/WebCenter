@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E8ACD337-958C-44AD-AF0C-B96DC6E48C3E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebCenter</RootNamespace>
+    <AssemblyName>WebCenter</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AsignacionApoyo.aspx" />
+    <Content Include="AsignacionesTecnico.aspx" />
+    <Content Include="AsignarEstatus.aspx" />
+    <Content Include="AsignarTecnico.aspx" />
+    <Content Include="AtencionCallCenter.aspx" />
+    <Content Include="Autocomplete.aspx" />
+    <Content Include="ConsultaCola.aspx" />
+    <Content Include="ConsultaServicios.aspx" />
+    <Content Include="EnConstruccion.aspx" />
+    <Content Include="Images\asignar_estatus_icono.png" />
+    <Content Include="Images\asignar_tecnico_icono.png" />
+    <Content Include="Images\banner_img.jpg" />
+    <Content Include="Images\CallCentBar.bmp" />
+    <Content Include="Images\login_call_center.jpg" />
+    <Content Include="Images\login_call_center.png" />
+    <Content Include="Images\pagina_en_construccion.jpg" />
+    <Content Include="js\EnterAsTab.js" />
+    <Content Include="js\jquery-ui-1.8rc3.custom.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\simpleAutoComplete.js" />
+    <Content Include="js\Util.js" />
+    <Content Include="packages.config" />
+    <Content Include="Images\main_crm.psd" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\1.gif" />
+    <Content Include="Images\background.jpg" />
+    <Content Include="Images\background_login.jpg" />
+    <Content Include="Images\ball.gif" />
+    <Content Include="Images\ball2.gif" />
+    <Content Include="Images\bk_changePassword.jpg" />
+    <Content Include="Images\bk_login.jpg" />
+    <Content Include="Images\bk_loginCrm.jpg" />
+    <Content Include="Images\bk_loginReporting.jpg" />
+    <Content Include="Images\bk_webForm.jpg" />
+    <Content Include="Images\boton.jpg" />
+    <Content Include="Images\Calendar_scheduleHS.png" />
+    <Content Include="Images\configuration.gif" />
+    <Content Include="Images\crm.gif" />
+    <Content Include="Images\crm_top.gif" />
+    <Content Include="Images\detail.png" />
+    <Content Include="Images\download.png" />
+    <Content Include="Images\edit-icon.gif" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\eliminar.gif" />
+    <Content Include="Images\error-32x32.png" />
+    <Content Include="Images\fondo.jpg" />
+    <Content Include="Images\fondo2.jpg" />
+    <Content Include="Images\fondo_bk.jpg" />
+    <Content Include="Images\imagen.jpg" />
+    <Content Include="Images\information-32x32.png" />
+    <Content Include="Images\Invisible.png" />
+    <Content Include="Images\ira25.gif" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\main_crm.jpg" />
+    <Content Include="Images\main_reporting.jpg" />
+    <Content Include="Images\pregunta.JPG" />
+    <Content Include="Images\reporting.gif" />
+    <Content Include="Images\reporting_top.gif" />
+    <Content Include="Images\select.PNG" />
+    <Content Include="Images\top.jpg" />
+    <Content Include="Images\top_bergamo2_test.jpg" />
+    <Content Include="Images\top_fifiu.jpg" />
+    <Content Include="Images\user.gif" />
+    <Content Include="Images\user02.gif" />
+    <Content Include="Images\user03.gif" />
+    <Content Include="Images\void.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="Personal.aspx" />
+    <Content Include="Seguridad.aspx" />
+    <Content Include="SeguridadCambiarClave.aspx" />
+    <Content Include="SeguridadGrupo.aspx" />
+    <Content Include="SeguridadObjetoGrupo.aspx" />
+    <Content Include="SeguridadObjeto.aspx" />
+    <Content Include="Styles\estilo.css" />
+    <Content Include="Styles\estiloindex.css" />
+    <Content Include="Styles\estilos.css" />
+    <Content Include="Styles\jquery-ui-1.8rc3.custom.css" />
+    <Content Include="Styles\simpleAutoComplete.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="UCMessageBox.ascx" />
+    <Content Include="UCNavigation.ascx" />
+    <Content Include="SeguridadUsuario.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsignacionApoyo.aspx.cs">
+      <DependentUpon>AsignacionApoyo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignacionApoyo.aspx.designer.cs">
+      <DependentUpon>AsignacionApoyo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsignacionApoyo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignacionesTecnico.aspx.cs">
+      <DependentUpon>AsignacionesTecnico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignacionesTecnico.aspx.designer.cs">
+      <DependentUpon>AsignacionesTecnico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsignacionesTecnico.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignarEstatus.aspx.cs">
+      <DependentUpon>AsignarEstatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignarEstatus.aspx.designer.cs">
+      <DependentUpon>AsignarEstatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarEstatus.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignarTecnico.aspx.cs">
+      <DependentUpon>AsignarTecnico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignarTecnico.aspx.designer.cs">
+      <DependentUpon>AsignarTecnico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarTecnico.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AtencionCallCenter.aspx.cs">
+      <DependentUpon>AtencionCallCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AtencionCallCenter.aspx.designer.cs">
+      <DependentUpon>AtencionCallCenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AtencionCallCenter.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Autocomplete.aspx.cs">
+      <DependentUpon>Autocomplete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Autocomplete.aspx.designer.cs">
+      <DependentUpon>Autocomplete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Autocomplete.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clases\CAsignarEstatus.cs" />
+    <Compile Include="Clases\CAsignarTecnico.cs" />
+    <Compile Include="Clases\CAtencionCallCenter.cs" />
+    <Compile Include="Clases\CPersonal.cs" />
+    <Compile Include="Clases\CSeguridad.cs" />
+    <Compile Include="ConsultaCola.aspx.cs">
+      <DependentUpon>ConsultaCola.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaCola.aspx.designer.cs">
+      <DependentUpon>ConsultaCola.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaServicios.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaServicios.aspx.cs">
+      <DependentUpon>ConsultaServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaServicios.aspx.designer.cs">
+      <DependentUpon>ConsultaServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="EnConstruccion.aspx.cs">
+      <DependentUpon>EnConstruccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnConstruccion.aspx.designer.cs">
+      <DependentUpon>EnConstruccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginaBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personal.aspx.cs">
+      <DependentUpon>Personal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personal.aspx.designer.cs">
+      <DependentUpon>Personal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personal.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seguridad.aspx.cs">
+      <DependentUpon>Seguridad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad.aspx.designer.cs">
+      <DependentUpon>Seguridad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadCambiarClave.aspx.cs">
+      <DependentUpon>SeguridadCambiarClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeguridadCambiarClave.aspx.designer.cs">
+      <DependentUpon>SeguridadCambiarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadCambiarClave.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeguridadGrupo.aspx.cs">
+      <DependentUpon>SeguridadGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeguridadGrupo.aspx.designer.cs">
+      <DependentUpon>SeguridadGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadGrupo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeguridadObjetoGrupo.aspx.cs">
+      <DependentUpon>SeguridadObjetoGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeguridadObjetoGrupo.aspx.designer.cs">
+      <DependentUpon>SeguridadObjetoGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadObjeto.aspx.cs">
+      <DependentUpon>SeguridadObjeto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeguridadObjeto.aspx.designer.cs">
+      <DependentUpon>SeguridadObjeto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadObjeto.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeguridadObjetoGrupo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UCMessageBox.ascx.cs">
+      <DependentUpon>UCMessageBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UCMessageBox.ascx.designer.cs">
+      <DependentUpon>UCMessageBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UCNavigation.ascx.cs">
+      <DependentUpon>UCNavigation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UCNavigation.ascx.designer.cs">
+      <DependentUpon>UCNavigation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadUsuario.aspx.cs">
+      <DependentUpon>SeguridadUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeguridadUsuario.aspx.designer.cs">
+      <DependentUpon>SeguridadUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadUsuario.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utils.cs" />
+    <Compile Include="XmlUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\CVS\" />
+    <Folder Include="js\CVS\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>43784</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:43784/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

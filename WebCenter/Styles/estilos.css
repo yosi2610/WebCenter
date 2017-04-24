@@ -1,0 +1,1141 @@
+﻿/********************************************/
+/* Clase para la tabla que se encuentra en 
+la parte superior de la master page*/
+.barraSuperiorTablaContenedora
+{
+	background-color: transparent;	
+	width: 980px;	
+	text-align: left;
+}
+.barraInferiorTablaContenedora
+{
+	background-color: transparent;	
+	width: 980px;	
+	text-align: center;	
+}
+
+
+
+.barraSuperior
+{	
+	background-image: url(disenio/bandas superiores/barraSuperior.jpg);
+	width: 980px;
+	height: 18px;
+	text-align: Left;
+	vertical-align:middle ;
+}
+
+.barraSuperiorPassword
+{	
+	background-image: url(disenio/bandas superiores/barraSuperiorPassword.gif);
+	width: 980px;
+	height: 36px;
+	text-align: Left;
+	vertical-align:middle ;
+}
+.barraSuperiorDatos
+{
+	font-weight: bold;  
+	color: black;
+	font-size: 11px;
+	font-family: Arial;
+	text-decoration: none;
+}
+ 
+/********************************************/ 
+/* Clases para fondos utilizados en el sistema*/ 
+.FondoGeneral
+{
+	background-color: transparent;
+	background-image: url(disenio/fondos/FondoGeneral.gif);
+	width: 980px;
+	height: 560px;
+	text-align: center;
+	overflow:hidden ; 
+}
+.FondoGeneralParaPassword
+{
+	background-color: transparent;
+	background-image: url(disenio/fondos/FondoGeneralParaPassword.gif);
+	width: 980px;
+	height: 560px;
+	text-align: center;
+	overflow:hidden ; 
+}
+
+/********************************************/
+/* Clases para los DIV que definen el area de 
+trabajo*/
+/* Entiendase por area de trabajo el lugar donde
+ el programador deposita objetos*/
+.areaDeTrabajo
+{
+	background-color: transparent;	
+	width: 908px;
+	height: 440px;
+	text-align: center;
+	overflow: hidden;
+}
+.SubAreaDeTrabajoSuperior
+{
+	background-color: transparent;	
+	width: 908px;
+	height: 380px;
+	text-align: center;
+	overflow: hidden;
+	
+}
+.SubAreaDeTrabajoInferior
+{
+	background-color: transparent;	
+	width: 908px;
+	height: 60px;
+	text-align: right;
+	overflow: hidden;
+
+}
+
+/********************************************/
+/* Clases para objetos insertables */
+.linea
+{
+	color: #99CC00;	
+	border-top: 1px solid;	 
+}
+.cTextbox
+{
+	font-size: 10px;
+	color: black;
+	font-style: normal;
+	font-family: Verdana;
+	text-decoration: none;
+	background-color: white;
+	border-right: lightgrey 1px solid;
+	border-top: lightgrey 1px solid;
+	border-left: lightgrey 1px solid;
+	border-bottom: lightgrey 1px solid;
+}
+
+.cTextboxObligatorio
+{
+	font-size: 10px;
+	color: black;
+	font-style: normal;
+	font-family: Verdana;
+	text-decoration: none;
+	background-color: white;
+	border-right: lightgrey 1px solid;
+	border-top: lightgrey 1px solid;
+	border-left: lightgrey 1px solid;
+	border-bottom: lightgrey 1px solid;
+	border-color: #99CC66; 
+	 
+}
+.cTextboxSinBordes
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	margin: auto;
+	height: 16px;
+	width: 365px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+	position: static;
+	right: 12px;
+	text-indent: 8px;
+	clip: rect(auto auto auto auto);
+	float: none;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top: 0px none #999999;
+	border-right: 0px none #999999;
+	border-bottom: 0px none #999999;
+	border-left: 0px none #999999;
+}
+
+.dropdownlist
+{
+height: 22px;
+}
+
+.cBotones
+{
+	font-size: 10px;
+	color:White;
+	font-style:normal ;
+	 font-weight:bold ; 
+	font-family: Verdana;
+	text-decoration: none;
+	/*background-color: #C5E099;*/
+	background-color:#72AC58;
+	/*border-right: lightgrey thin solid;
+	border-top: lightgrey thin solid;
+	border-left: lightgrey thin solid;
+	border-bottom: lightgrey thin solid;*/
+}
+.etiquetas
+{
+	font-weight: bold;  
+	color: black;
+	font-size: 10px;
+	font-family: Arial;
+	text-decoration: none;
+}
+.cRadioOptionObligatorio
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal; 
+	font-variant: normal;	
+	color: Black;
+	text-decoration: none;
+	margin: auto;
+	height: auto;
+	width: auto;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+	position: static;
+	right: 12px;
+	text-indent: 8px;
+	clip: rect(auto auto auto auto);
+	float: none;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-width: 1px;
+	border-color: #99CC66;
+	border-style: solid;
+	
+	}
+.cRadioOption
+{
+	text-align: right;
+	font-size: 10px;
+	color: black;
+	font-style: normal;
+	font-family: Arial;
+	text-decoration: none;		
+}
+.cChkOption
+{
+	text-align: left;
+	font-size: 10px;
+	color: black;
+	font-style: normal;
+	font-family: Arial;
+	text-decoration: none;	
+}	 
+.validators
+{
+	font-weight: bold;  
+	color: red;	
+	font-size: 10px;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+/********************************************/
+/* clases para los titulos y subtitulos de los programas */
+/* Respecto a los subtítulos verdes y grises, yo los usaría verdes en todo lo que sea marcos principales dentro de la pantalla.
+En el caso de las claves ABM, las ayudas que van en el recuadro sobre el fondo verde, o cualquier otro marco secundario, podría usarse gris.*/
+
+
+
+.titulo {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #99CC00;
+	text-decoration: none;
+	margin: auto;
+	height: auto;
+	width: auto;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: static;
+	right: 12px;
+	text-indent: 8px;
+	clip:     rect(auto auto auto auto);
+	float: none;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top: 0px none #999999;
+	border-right: 0px none #999999;
+	border-bottom: 0px none #999999;
+	border-left: 0px none #999999;
+	}
+.tituloVerde {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #4F4F2F;
+	text-decoration: none;
+	margin: auto;
+	height: auto;
+	width: auto;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: static;
+	right: 12px;
+	text-indent: 8px;
+	clip:     rect(auto auto auto auto);
+	float: none;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top: 0px none #999999;
+	border-right: 0px none #999999;
+	border-bottom: 0px none #999999;
+	border-left: 0px none #999999;
+	background-color: #C5E099;
+	}
+.subtitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	
+	color: Black; 
+	text-decoration: none;
+	margin: auto;
+	height: auto;
+	width: auto;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+	position: static;
+	right: 12px;
+	text-indent: 8px;
+	clip:     rect(auto auto auto auto);
+	float: none;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top: 0px none #999999;
+	border-right: 0px none #999999;
+	border-bottom: 0px none #999999;
+	border-left: 0px none #999999;
+	}
+.subtitulocentrado{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	
+	color: Black; 
+	text-decoration: none;
+	margin: auto;
+	height: auto;
+	width: auto;
+	text-align: center;
+	vertical-align: middle;
+	white-space: normal;
+	position: static;
+	right: 12px;
+	text-indent: 8px;
+	clip:     rect(auto auto auto auto);
+	float: none;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top: 0px none #999999;
+	border-right: 0px none #999999;
+	border-bottom: 0px none #999999;
+	border-left: 0px none #999999;
+	}
+
+.boton 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;background-color: #D4D0C8;
+	BORDER-TOP-COLOR: #444444;BORDER-LEFT-COLOR: #444444;
+	BORDER-RIGHT-COLOR: #444444;BORDER-BOTTOM-COLOR: #444444;
+	BORDER-TOP-WIDTH: 1px;BORDER-LEFT-WIDTH: 1px;
+	BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px;
+}            
+
+/********************************************/
+/* Clases para las grillas */
+.registroNormal
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #000000;
+	background-color: #FFFFFF;
+	
+	vertical-align: middle;
+	height: auto;
+	width: auto;
+	border-top: 0px none;
+	border-right: 0px none;
+	border-bottom: 0px none;
+	border-left: 0px none;	
+	padding: 0px;
+	margin-left: 0px;
+	text-indent: 0mm;
+	white-space: normal;
+	
+	}
+.registroAlternado
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #000000;
+	background-color: #C5E099;
+	
+	vertical-align: middle;
+	height: auto;
+	width: auto;
+	border-top: 0px none;
+	border-right: 0px none;
+	border-bottom: 0px none;
+	border-left: 0px none;	
+	padding: 0px;
+	margin-left: 0px;
+	text-indent: 0mm;
+	white-space: normal;
+	
+	}	
+.registroTitulo {	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #CCCCCC;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #FFFFFF;
+	height: 22px;
+	padding: 12px;
+
+}
+.registroTituloPlano {	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #CCCCCC;
+	text-align: center;
+	
+	border: 1px solid #FFFFFF;
+	height: 11px;
+	padding: 12px;
+	
+
+}
+.registroResaltado
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold; 
+	text-transform: none;
+	color: #000000;
+	background-color: #EBDDE2;
+	
+	vertical-align: middle;
+	height: auto;
+	width: auto;
+	border-top: 0px none;
+	border-right: 0px none;
+	border-bottom: 0px none;
+	border-left: 0px none;	
+	padding: 0px;
+	margin-left: 0px;
+	text-indent: 0mm;
+	white-space: normal;  	
+}	
+.registroResaltadoAlerta
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold; 
+	text-transform: none;
+	color:Red ;
+	background-color: #EBDDE2;
+	
+	vertical-align: middle;
+	height: auto;
+	width: auto;
+	border-top: 0px none;
+	border-right: 0px none;
+	border-bottom: 0px none;
+	border-left: 0px none;	
+	padding: 0px;
+	margin-left: 0px;
+	text-indent: 0mm;
+	white-space: normal;  	
+}
+
+/*******************************************/
+/* Clases utilizadas para el menu principal */
+.MenuPrincipalItem
+{
+	background-color:#C5E099;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color:#000000;
+	border-right: #E3E7E8 1px solid;
+	border-top: #E3E7E8 1px solid;
+	border-left: #E3E7E8 1px solid;
+	border-bottom: #E3E7E8 1px solid;
+	line-height :25px;
+	
+	
+}
+.MenuPrincipalSel
+{
+	display :block;
+	background-color:#E3E7E8;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color:#000000;
+	border-right: #E3E7E8 1px solid;
+	border-top: #E3E7E8 1px solid;
+	border-left: #E3E7E8 1px solid;
+	border-bottom: #E3E7E8 1px solid;
+}
+/*******************************************/
+/* Clases para mensajes */
+.mensajeRojo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #FF0000;
+	text-decoration: none;
+	margin: auto;
+	height: auto;
+	width: auto;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+	position: static;
+	right: 12px;
+	text-indent: 8px;
+	clip:     rect(auto auto auto auto);
+	float: none;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top: 0px none #999999;
+	border-right: 0px none #999999;
+	border-bottom: 0px none #999999;
+	border-left: 0px none #999999;
+	}
+.mensajeAmarillo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #FF9933;
+	text-decoration: none;
+	margin: auto;
+	height: auto;
+	width: auto;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+	position: static;
+	right: 12px;
+	text-indent: 8px;
+	clip:     rect(auto auto auto auto);
+	float: none;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top: 0px none #999999;
+	border-right: 0px none #999999;
+	border-bottom: 0px none #999999;
+	border-left: 0px none #999999;
+	}
+.mensajeInformativo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #3366CC;
+	text-decoration: none;
+	margin: auto;
+	height: auto;
+	width: auto;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+	position: static;
+	right: 12px;
+	text-indent: 8px;
+	clip:     rect(auto auto auto auto);
+	float: none;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top: 0px none #999999;
+	border-right: 0px none #999999;
+	border-bottom: 0px none #999999;
+	border-left: 0px none #999999;
+	}
+/*******************************************/
+/* Clases utilizadas para el control de fecha */
+.controlFecha
+{
+	border: 1px solid #C5E099;
+	background: #ffffff;
+	position: static;
+	padding: 5;
+	white-space: nowrap;
+	z-index: 1000;
+	font-size : 10px;
+	font-style: normal;
+	font-family: Arial;
+	text-decoration: none;
+	font-weight: bold; 
+}
+.ctrlFechaMenuItem
+{	
+	font-style: normal;
+	font-family: Arial;
+	text-decoration: none;
+	color: #000000;
+	background: #ffffff;
+	cursor: hand;
+	cursor: pointer;
+	font-size : 10px;
+	font-weight: bold; 
+}
+.controlFechaSelMenuItem
+{
+	font-weight: bold; 
+	font-size : 10px;
+	font-style: normal;
+	font-family: Arial;
+	text-decoration: none;
+	color: #000000;
+	background: #C5E099;
+	cursor: hand;
+	cursor: pointer;
+	white-space: nowrap;
+}
+/*******************************************/
+/* Clases utilizadas por el control de ayuda*/
+.asbMenu 
+{		
+	border: 1px solid #F0D18F;
+	background: #ffffff;
+	position: absolute;
+	padding: 5;
+	white-space: nowrap;
+	z-index: 1000;
+	font-size : 10px;
+	font-style: normal;
+	font-family: Arial;
+	text-decoration: none;
+	font-weight: bold; 
+}	
+.asbMenuBase
+{
+	position: absolute;
+	z-index: 1000;
+	font-weight: bold; 
+	font-size : 10px;
+	font-style: normal;
+	font-family: Arial;
+	text-decoration: none;
+}					
+.asbMenuItem
+{	
+	font-style: normal;
+	font-family: Arial;
+	text-decoration: none;		
+	color: #000000;
+	background: #ffffff;
+	cursor: hand;
+	cursor: pointer;
+	font-size : 10px;
+	font-weight: bold; 
+}
+
+.asbSelMenuItem
+{			
+	font-weight: bold; 
+	font-size : 10px;
+	font-style: normal;
+	font-family: Arial;
+	text-decoration: none;
+	color: #000000;
+	background: #C5E099;
+	cursor: hand;
+	cursor: pointer;
+	white-space: nowrap;
+}
+/********************************************/
+/* Clases para solapas */
+.solapaBaja
+{
+	background-color: transparent;
+	width: 145px;
+	height: 20px;
+	overflow :hidden; 
+	text-align: center;	
+	background-image: url(disenio/fondos/solapabaja145.gif);
+	background-repeat:no-repeat;
+}
+.solapaAlta
+{
+	background-color: transparent;
+	width: 145px;
+	height: 25px;
+	overflow :hidden; 
+	text-align: center;
+	background-image: url(disenio/fondos/solapaalta145.gif);
+}
+
+/********************************************/
+/* Marcos especiales */
+.marcoLogin
+{	
+	background-color: transparent;
+	width: 178px;
+	height: 88px;
+	text-align: right;
+	background-image: url(disenio/recuadros/especiales/marcoLogin.gif); 
+}
+.tituloPrograma {
+	background-color: transparent;
+	width: 908px;
+
+	font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-align: center;
+	background-image: url(disenio/recuadros/Especiales/tituloDelPrograma.gif); 	 
+}
+
+/********************************************/
+/* Marcos */
+/*		Para subArea inferior */
+		/*
+		El de 719 px es para cuando a la izquierda hay 4 botones
+		El de 761 px es para cuando a la izquierda hay 3 botones
+		El de 804 px es para cuando a la izquierda hay 2 botones
+		El de 847 px es para cuando a la izquierda hay 1 botón
+		*/
+
+.marco_719_40 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 719px;
+	height: 40px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaInferior/719/719x40.gif);
+}	
+.marco_761_40 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 761px;
+	height: 40px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaInferior/761/761x40.gif);
+}	
+.marco_804_40 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 804px;
+	height: 40px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaInferior/804/804x40.gif);
+}	
+.marco_847_40 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 847px;
+	height: 40px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaInferior/847/847x40.gif);
+}	
+
+/*		Para subArea superior */		
+		/*
+		Los de 290 px son para trabajar en 3 columnas
+		Los de 444 px en 2 columnas
+		Los de 908 px en 1 columna
+		*/		
+
+
+.marco_290_295
+{ 
+ background-color: transparent;
+ width: 290px;
+ height: 295px;
+ text-align: left;
+ background-image: url(disenio/recuadros/SubAreaSuperior/290/290x295.gif);
+}
+
+.marco_290_120 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 290px;
+	height: 120px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/290/290x120.gif);
+}	
+.marco_290_160 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 290px;
+	height: 160px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/290/290x160.gif);	
+}	
+.marco_290_200 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 290px;
+	height: 200px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/290/290x200.gif);
+}	
+.marco_290_240 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 290px;
+	height: 240px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/290/290x240.gif);
+}	
+.marco_290_280 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 290px;
+	height: 280px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/290/290x280.gif);
+}	
+.marco_290_320 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 290px;
+	height: 320px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/290/290x320.gif);
+}	
+.marco_290_330 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 290px;
+	height: 330px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/290/290x330.gif);
+}	
+.marco_290_40 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 290px;
+	height: 40px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/290/290x40.gif);
+}	
+.marco_290_80 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 290px;
+	height: 80px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/290/290x80.gif);
+}	
+
+
+.marco_444_120 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 120px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x120.gif);
+}	
+.marco_444_160 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 160px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x160.gif);	
+}
+
+.marco_444_175 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 175px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x175.gif);
+}
+	
+.marco_444_200 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 200px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x200.gif);
+}	
+.marco_444_240 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 240px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x240.gif);
+}	
+.marco_444_280 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 280px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x280.gif);
+}	
+.marco_444_320 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 320px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x320.gif);
+}	
+.marco_444_330 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 330px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x330.gif);
+}	
+.marco_444_40 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 40px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x40.gif);
+}	
+.marco_444_80 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 444px;
+	height: 80px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/444/444x80.gif);
+}	
+
+
+.marco_908_120 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 120px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x120.gif);
+}	
+.marco_908_160 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 160px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x160.gif);	
+}	
+.marco_908_180 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 180px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x180.gif);	
+}	
+.marco_908_200 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 200px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x200.gif);
+}	
+.marco_908_240 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 240px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x240.gif);
+}	
+.marco_908_280 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 280px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x280.gif);
+}	
+.marco_908_320 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 320px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x320.gif);
+}	
+.marco_908_330 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 330px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x330.gif);
+}	
+.marco_908_40 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 40px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x40.gif);
+}	
+.marco_908_80 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 80px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x80.gif);
+}	
+.marco_908_60 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 60px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x60.gif);
+}	
+.marco_908_370 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 370px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x370.gif);
+}	
+.marco_908_45 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 45px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x45.gif);
+}	
+.marco_908_70 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 908px;
+	height: 70px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/908/908x70.gif);
+}	
+
+.marco_590_320 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 590px;
+	height: 320px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/590/590x320.gif);
+}
+
+.marco_298_320 /*marco_ancho_alto*/
+{	
+	background-color: transparent;
+	width: 298px;
+	height: 320px;
+	text-align: left;
+	background-image: url(disenio/recuadros/SubAreaSuperior/298/298x320.gif);
+}
+
+
+.ListPromptCssStyle  /*estilo para listExtender */ 
+{
+	 font-family:Verdana; 
+	 font-size:0px; 
+	 background-color: Transparent;
+}
+	
+.noticias 
+{
+	width:908px;
+	font-family:Arial;
+	font-size:11px;
+	color:#000000;
+	text-align:left;
+	float:left;
+}
+	
+.noticias a 
+{
+	color:#006400;
+	font-weight :bold;
+}
