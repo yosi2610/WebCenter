@@ -18,7 +18,6 @@ namespace WebCenter
                 try
                 {
                     CargarServicios();
-                    CargarServicios();
                 }
                 catch (Exception ex)
                 {
